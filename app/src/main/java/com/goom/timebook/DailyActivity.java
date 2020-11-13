@@ -16,5 +16,10 @@ public class DailyActivity extends AppCompatActivity {
 
         List<Integer> data = Arrays.asList(1,2,3,4,5,6,7,8);
 //        data.stream().filter()
-}
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
